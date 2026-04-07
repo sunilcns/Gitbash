@@ -1,5 +1,3 @@
-
-Quick Reference Cheat Sheet
 Action	Command
 Clone repo	git clone <url>
 Check status	git status
@@ -13,7 +11,13 @@ Delete file	git rm <file>
 Rename file	git mv <old> <new>
 View log	git log --oneline
 Undo changes	git checkout -- <file>
-<img width="438" height="441" alt="image" src="https://github.com/user-attachments/assets/ed178d8a-0d0e-42fa-bb01-793b7f31d347" />
+git add .        	All changes in current folder
+git add -A       	All changes in entire repo
+git add README.md	One specific file
+git add demos/   	One specific folder
+git add *.py     	 All Python files
+git add *.md     	All Markdown files
+<img width="383" height="457" alt="image" src="https://github.com/user-attachments/assets/2dc2925c-922a-40f2-bb85-4b5edfe6ed75" />
 
 
 CommandWhat it Stagesgit add .All changes in current foldergit add -AAll changes in entire repogit add README.mdOne specific filegit add demos/One specific foldergit add *.pyAll Python filesgit add *.mdAll Markdown files
